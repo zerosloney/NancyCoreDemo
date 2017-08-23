@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Nancy.Owin;
+using NancyDemo.Bootstrappers;
 
 namespace NancyDemo
 {
@@ -7,7 +8,10 @@ namespace NancyDemo
     {
         public void Configure(IApplicationBuilder app)
         {
-            app.UseOwin(x => x.UseNancy());
+            app.UseOwin(x => x.UseNancy(action: y =>
+            {
+                y.Bootstrapper = new ApiAutofacBootstrapper();
+            }));
         }
     }
 }

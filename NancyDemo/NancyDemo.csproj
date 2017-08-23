@@ -10,9 +10,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Owin" Version="1.1.0" />
     <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="Nancy.Bootstrappers.Autofac" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="Nancy.Authentication.Stateless" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="jose-jwt" Version="2.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Bootstrappers" />
     <Folder Include="Validations" />
   </ItemGroup>
 </Project>
