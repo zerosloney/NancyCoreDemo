@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Nancy;
+using Nancy.ModelBinding;
+using Nancy.Validation;
 using NancyDemo.ViewModels;
+using  NancyDemo.Models;
 
 namespace NancyDemo.Modules
 {
@@ -12,7 +15,17 @@ namespace NancyDemo.Modules
         {
             Get("/", args => Response.AsJson(new {code = 1, msg = "成功", data = GetList()}));
 
-            Post("/", args => Response.AsJson(new {code = 1, msg = "成功", data = new { username =  args.name } }));
+    
+            Post("/", args =>
+            {
+                var userReqModel = this.Bind<UserReqModel>();
+                var results = this.Validate(userReqModel);
+                if (!results.IsValid)
+                {
+                    return Negotiate.WithModel(results).WithStatusCode(HttpStatusCode.BadRequest);
+                }
+                return Response.AsJson(userReqModel);
+            });
         }
 
         private static IEnumerable<UserViewModel> GetList()

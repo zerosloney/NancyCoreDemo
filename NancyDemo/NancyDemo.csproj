@@ -13,8 +13,6 @@
     <PackageReference Include="Nancy.Bootstrappers.Autofac" Version="2.0.0-clinteastwood" />
     <PackageReference Include="Nancy.Authentication.Stateless" Version="2.0.0-clinteastwood" />
     <PackageReference Include="jose-jwt" Version="2.4.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Validations" />
+    <PackageReference Include="Nancy.Validation.FluentValidation" Version="2.0.0-clinteastwood" />
   </ItemGroup>
 </Project>

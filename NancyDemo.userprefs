@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="NancyDemo/Modules/UserModule.cs">
     <Files>
       <File FileName="NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" Line="65" Column="1" />
-      <File FileName="NancyDemo/Modules/UserModule.cs" Line="13" Column="1" />
+      <File FileName="NancyDemo/Modules/UserModule.cs" Line="16" Column="10" />
       <File FileName="NancyDemo/ViewModels/UserViewModel.cs" Line="7" Column="1" />
       <File FileName="NancyDemo/Modules/HomeModule.cs" Line="9" Column="1" />
     </Files>
