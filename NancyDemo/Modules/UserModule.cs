@@ -5,7 +5,7 @@ using Nancy;
 using Nancy.ModelBinding;
 using Nancy.Validation;
 using NancyDemo.ViewModels;
-using  NancyDemo.Models;
+using NancyDemo.Models;
 
 namespace NancyDemo.Modules
 {

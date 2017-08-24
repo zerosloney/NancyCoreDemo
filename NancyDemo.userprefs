@@ -1,18 +1,23 @@
 ﻿<Properties StartupConfiguration="{5E7448D5-D475-4559-9FB3-3B1217D4438C}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NancyDemo/Modules/UserModule.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NancyDemo/AppSettings.cs">
     <Files>
-      <File FileName="NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" Line="65" Column="1" />
-      <File FileName="NancyDemo/Modules/UserModule.cs" Line="16" Column="10" />
+      <File FileName="NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" Line="14" Column="77" />
+      <File FileName="NancyDemo/Modules/UserModule.cs" Line="4" Column="1" />
       <File FileName="NancyDemo/ViewModels/UserViewModel.cs" Line="7" Column="1" />
       <File FileName="NancyDemo/Modules/HomeModule.cs" Line="9" Column="1" />
+      <File FileName="NancyDemo/Validations/UserRmValidator.cs" Line="10" Column="13" />
+      <File FileName="NancyDemo/Startup.cs" Line="1" Column="1" />
+      <File FileName="NancyDemo/Program.cs" Line="1" Column="1" />
+      <File FileName="NancyDemo/Modules/TokenModule.cs" Line="20" Column="17" />
+      <File FileName="NancyDemo/Models/UserReqModel.cs" Line="1" Column="1" />
+      <File FileName="NancyDemo/Models/UserTokenReqModel.cs" Line="1" Column="1" />
+      <File FileName="NancyDemo/Validations/UserTokenRmValidator.cs" Line="11" Column="80" />
+      <File FileName="NancyDemo/AppSettings.cs" Line="6" Column="77" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Volumes/Athena/code/NancyDemo/NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" relfile="NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" line="37" column="1" />
-      <Breakpoint file="/Volumes/Athena/code/NancyDemo/NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" relfile="NancyDemo/Bootstrappers/ApiAutofacBootstrapper.cs" line="43" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.NancyDemo PreferredExecutionTarget="MonoDevelop.Default" />
